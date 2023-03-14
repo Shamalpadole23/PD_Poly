@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 90vh;
+   width: 100%;
+    background-color:white;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    width: 20;
+    height: 33px;
+    background-color: brown;
+    align-items: flex-start;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 30;
+    height: 500px;
+    background-color: white;
+}
+
+.footer{
+    width: 30;
+    height: 100px;
+    background-color: black;
+}  
+
+.navbar .fa{
+    color: white;
+    float: left;
+    margin-left: 80px;
+    padding: 9px 5px;
+    font-size: 16px;
+}
+
+.navbar p{
+    color: white;
+    padding-top: 7px;
+    font-size: 14px;
+    letter-spacing: 0.9;
+    font-weight: 800;
+}
+
+.header{
+    background-color: white;
+    height:130px;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img{
+    width: 550px;
+    margin-left: 25%;
+}
+
+.header .bottom{
+    background-color:white;
+    width:90%;
+    height: 20px;
+    
+}
+
+.bottom ul{
+    display: flex;
+    margin-left: 250px;
+}
+
+.bottom ul li{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #474747;
+    letter-spacing: 0.1px;
+    font-weight: 700px;
+    
+}
+
+.bottom .home{
+    color: orangered;
+}
+
+.main .sidebar{
+    background-color: white;
+    width: 80%;
+    height: 90%;
+    margin-left: 12%;
+    margin-top: 10px;
+}
+
+.main  .sidebar .leftside{
+    background-color: white;
+    width: 20%;
+    height: 500px;
+    margin-left: 20px;
+    border: 1px solid lightgray;
+    float: left;
+}
+
+.leftside .heading{
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    font-weight: 700px;
+}
+
+.heading h4{
+    padding: 5px;
+    font-size: 14px;
+}
+
+.leftside a{
+    padding: 10px;
+    height: 10px;
+    text-align: center;
+   text-decoration: none;
+   margin-left: 10px;
+   margin-top: 1px;
+   color: black;
+   font-weight: 800px;
+   font-size: 16px;
+}
+
+.leftside p{
+    margin-top: 10px;
+   
+}
+
+.rightside{
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-left: 80px;
+}
+
+.main  .sidebar .rightside{
+    background-color: white;
+    width: 20%;
+    height: 500px;
+    margin-left: 20px;
+    border: 1px solid lightgray;
+    float: right;
+}
+
+.rightside .heading{
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    font-weight: 700px;
+}
+
+.heading h4{
+    padding: 5px;
+    font-size: 14px;
+}
+
+.rightside a{
+    padding: 10px;
+    height: 10px;
+    text-align: center;
+   text-decoration: none;
+   margin-left: 10px;
+   margin-top: 1px;
+   color: black;
+   font-weight: 800px;
+   font-size: 16px;
+}
+
+.rightside p{
+    margin-top: 10px;
+   
+}
+
+.main .sidebar .midside{
+    background-color:white;
+    height: 30px;
+    width: 53%;
+    margin-left: 25%;
+    border: 2px solid black;
+}
+
+.main .sidebar .midside p{
+    display: inline-block;
+    padding: 5px;
+    marquee: left;
+    margin-left: 20px;
+    font-weight: 900px;
+}
+
+.main .sidebar .bottom{
+    background-color: orange;
+    height: 80%;
+    width: 53%;
+    margin-left:25%;
+}
+
+.middle{
+    background: linear-gradient(white, rgb(185, 213, 224));
+    height: 200px;
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.middle .vision{
+    
+    width: 40%;
+    height: 150px;
+    margin-left:9%;
+}
+
+.middle .vision h2 {
+margin-left: 50%;
+color: pink;
+letter-spacing: 5px;
+padding-top: 20px;
+font-weight: 900px;
+}
+
+.middle .vision .fa {
+    margin-left: 58%;
+    font-size: 40px;
+    color: royalblue;
+}
+
+.middle .vision p{
+    margin-left: 10px;
+    justify-content: center;
+    color: #000000;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900px;
+}
+    
+.middle .mission{
+    
+    width: 40%;
+    height:150px;
+    margin-left: 20px;
+}
+
+.middle .mission h2 {
+    margin-left: 32%;
+    color: pink;
+    letter-spacing: 5px;
+    padding-top: 20px;
+    font-weight: 900px;
+    }
+    
+    .middle .mission .fa {
+        margin-left: 40%;
+        font-size: 40px;
+        color: royalblue;
+    }
+    
+    .middle .mission p{
+        margin-left: 10px;
+        justify-content: center;
+        color: #000000;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 900px;
+    }
+
+.links{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    
+}
+
+.link{
+    width: 100%;
+    height: 250px;
+    background-color: orangered;
+
+}
+
+.link h1{
+    margin-left: 40%;
+    color: white;
+    font-weight: 700px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.link .lnk{
+    margin-top: 40px;
+}
+
+.link .lnk div{
+    display: inline;
+    margin-left: 15%;
+    height: 20px;
+    width: 70px;
+    background-color:white;
+    padding: 10px 20px 10px 20px;
+    color: ;
+}
+
+
+.link .lnk .womans{
+    margin-left: 250px;
+}
+
+.cards {
+    background-color: purple;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.cards .leftside{
+    width: 600px;
+    height: auto;
+    background-color: pink;
+    margin-left:5%;
+}
+
+.cards .rightside{
+    background-color: green;
+    width: 600px;
+    height: auto;
+    margin-right: 5%;
+}
+
+
